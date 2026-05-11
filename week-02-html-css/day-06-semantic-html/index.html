@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Day 6 — Semantic HTML</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Primary">
+        <!-- TODO: site nav -->
+      </nav>
+    </header>
+
+    <main>
+      <article aria-labelledby="post-title">
+        <h1 id="post-title">Article Title</h1>
+        <p>Body content...</p>
+      </article>
+
+      <dialog id="confirm">
+        <form method="dialog">
+          <p>Are you sure?</p>
+          <button value="cancel">Cancel</button>
+          <button value="ok">OK</button>
+        </form>
+      </dialog>
+
+      <button onclick="document.getElementById('confirm').showModal()">Open dialog</button>
+    </main>
+
+    <footer>
+      <small>&copy; 2026</small>
+    </footer>
+  </body>
+</html>

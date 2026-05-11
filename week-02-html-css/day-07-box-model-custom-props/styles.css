@@ -1,0 +1,41 @@
+:root {
+  --color-primary: #635bff;
+  --color-bg: #fff;
+  --color-text: #111;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --radius: 0.375rem;
+}
+
+[data-theme='dark'] {
+  --color-bg: #0a0a0a;
+  --color-text: #f4f4f5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, sans-serif;
+  padding: var(--space-2);
+}
+
+/* TODO: define each variant entirely through custom properties so theming works */
+.btn {
+  background: var(--btn-bg, var(--color-primary));
+  color: var(--btn-fg, white);
+  border: 1px solid var(--btn-border, transparent);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.btn-primary   { /* default already primary */ }
+.btn-secondary { --btn-bg: transparent; --btn-fg: var(--color-primary); --btn-border: var(--color-primary); }
+.btn-ghost     { --btn-bg: transparent; --btn-fg: var(--color-text); }
+.btn-danger    { --btn-bg: #dc2626; }

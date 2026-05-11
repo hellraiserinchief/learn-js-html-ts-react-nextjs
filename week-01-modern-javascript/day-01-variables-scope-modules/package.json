@@ -1,0 +1,6 @@
+{
+  "name": "day-01-variables-scope-modules",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module"
+}

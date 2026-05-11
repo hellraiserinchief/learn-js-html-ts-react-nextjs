@@ -1,0 +1,22 @@
+/* Starter — replace with your own as you build out the page. */
+@layer reset, components, overrides;
+
+@layer reset {
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, sans-serif; }
+}
+
+:root {
+  --color-bg: #fff;
+  --color-text: #111;
+  --color-primary: #635bff;
+}
+[data-theme='dark'] {
+  --color-bg: #0a0a0a;
+  --color-text: #f4f4f5;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}

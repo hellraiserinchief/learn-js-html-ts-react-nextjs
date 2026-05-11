@@ -1,0 +1,40 @@
+@layer reset, framework, components, overrides;
+
+@layer reset {
+  *, *::before, *::after { box-sizing: border-box; }
+  body { font-family: system-ui, sans-serif; padding: 1rem; }
+}
+
+@layer components {
+  .resizable {
+    resize: horizontal;
+    overflow: auto;
+    border: 2px dashed #635bff;
+    width: 600px;
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .card-wrapper { container-type: inline-size; }
+
+  .card {
+    display: block;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    & .thumb { background: #ddd; aspect-ratio: 16/9; }
+    & .body  { padding: 1rem; }
+  }
+
+  @container (min-width: 400px) {
+    .card {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1rem;
+
+      & .thumb { aspect-ratio: 1; }
+    }
+  }
+}
