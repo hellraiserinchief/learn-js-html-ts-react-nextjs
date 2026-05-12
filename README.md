@@ -44,7 +44,7 @@ Each one is self-contained — pick the ones that match the kind of work you wan
 |------|-------|
 | 2 | [DOM APIs](./week-02-html-css/bonus-dom-apis/) — the parts React hides from you |
 | 4 | [Tailwind CSS](./week-04-react-fundamentals/bonus-tailwind/), [MUI](./week-04-react-fundamentals/bonus-mui/), [shadcn/ui](./week-04-react-fundamentals/bonus-shadcn-ui/), [Browser DevTools](./week-04-react-fundamentals/bonus-browser-devtools/) |
-| 5 | [A11y patterns](./week-05-react-real-world/bonus-a11y-patterns/), [Animation](./week-05-react-real-world/bonus-animation/), [Web Workers](./week-05-react-real-world/bonus-web-workers/), [WASM](./week-05-react-real-world/bonus-wasm/) |
+| 5 | [A11y patterns](./week-05-react-real-world/bonus-a11y-patterns/), [Animation](./week-05-react-real-world/bonus-animation/), [Web Workers](./week-05-react-real-world/bonus-web-workers/), [WASM](./week-05-react-real-world/bonus-wasm/), [Redux (RTK)](./week-05-react-real-world/bonus-redux/) |
 | 6 | [i18n](./week-06-nextjs-app-router/bonus-i18n/), [PWAs / Service Workers](./week-06-nextjs-app-router/bonus-pwa-service-workers/) |
 | 7 | [Web security](./week-07-nextjs-production/bonus-web-security/), [Core Web Vitals](./week-07-nextjs-production/bonus-web-vitals/), [Monorepos](./week-07-nextjs-production/bonus-monorepos/), [CI + Conventional Commits](./week-07-nextjs-production/bonus-ci-conventional-commits/) |
 

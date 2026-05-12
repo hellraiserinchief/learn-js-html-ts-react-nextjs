@@ -1,6 +1,6 @@
 # Day 1 — Variables, Scope, and the Module System
 
-**Reading (45 min):** [Exploring JS — Variables and assignment](https://exploringjs.com/js/book/ch_variables.html), [Modules](https://exploringjs.com/js/book/ch_modules.html).
+**Reading (45 min):** [Exploring JS — Variables and assignment](https://exploringjs.com/js/book/ch_variables-assignment.html), [Modules](https://exploringjs.com/js/book/ch_modules.html).
 
 ## Key concepts
 

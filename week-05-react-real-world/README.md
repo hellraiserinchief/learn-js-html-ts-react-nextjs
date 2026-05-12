@@ -14,3 +14,4 @@
 | [Bonus](./bonus-animation/) | Animation — CSS, View Transitions, Motion (Framer Motion) |
 | [Bonus](./bonus-web-workers/) | Web Workers — offload CPU work off the main thread |
 | [Bonus](./bonus-wasm/) | WebAssembly — run Rust/C/C++ in the browser at near-native speed |
+| [Bonus](./bonus-redux/) | Redux Toolkit + RTK Query — for working on existing enterprise codebases |
